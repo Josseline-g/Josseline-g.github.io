@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.fila{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
+
+.boton-iniciar-sesion{
+    border: 0px solid;
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton-cerrar-sesion{
+    border: 0px solid;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+.Chat{
+    background-color: gainsboro;
+    padding: 15px;
+    width: 60%;
+    border: 1px solid blue;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.mensaje-enviar{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom: 2px solid blue;
+    width: 60%;
+    font-size: 16px;
+}
+
+.nombre-usuario{
+    color: blue
+}
+
+.mensaje-chat{
+    font-family: sans-serif
+    }
